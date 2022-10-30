@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.princ{
+    padding-left:8cm;
+    background: transparent
+}
+input[type='text']{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+
+}
+.inputSearch{
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px solid #f8baba;
+    box-shadow:   0 0 10px 2px rgb(255, 0, 0),
+    inset  0 0 10px 2px rgb(255, 0, 0);
+    margin-bottom: 85px;
+    transition: 0.3s;
+    background-color: rgba(138, 13, 13, 0.452);
+}
+.inputSearch:hover{
+    box-shadow:   0 0 10px 5px rgb(255, 0, 0),
+    inset  0 0 10px 3px rgb(255, 0, 0);
+    border: 2px solid #f8baba;
+    background-color: rgb(133, 0, 0);
+    transition: 0.3s;
+}
+.inputSearch:focus{
+    outline: none;
+    background-color: rgb(116, 8, 8);
+    padding: 18px;
+    color: white;
+    border: 2px solid #f8baba;
+}
+.inputSearch::-webkit-input-placeholder {
+    color: rgb(243, 188, 188);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+  }
+.btnSearch{
+    background-color: rgba(138, 13, 13, 0.452);
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    border-radius: 4px;
+    border: 2px solid #f8baba;
+    box-shadow:   0 0 10px 2px rgb(255, 0, 0),
+    inset  0 0 10px 2px rgb(255, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btnSearch:hover{
+    box-shadow:   0 0 10px 5px rgb(255, 0, 0),
+    inset  0 0 10px 3px rgb(255, 0, 0);
+    border: 2px solid #f8baba;
+    background-color: rgb(116, 8, 8);
+    transition: 0.3s;
+}

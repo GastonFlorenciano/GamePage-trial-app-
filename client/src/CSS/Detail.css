@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.bgDetail{
+    background-image: url('https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_where_winds_meet_01_1920x1080.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: table;
+    margin: 0;
+    top: 0; 
+}
+.cont{
+    display: flex;
+    margin: 2% 8% 0 8%;
+    
+}
+.info{
+    align-items: flex-end;
+    border: 3px solid rgb(238, 183, 183);
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    background-color: rgba(138, 13, 13, 0.8);
+    box-shadow: 0px 0px 10px 5px rgb(187, 3, 3);
+    height: 15cm;
+    margin-top: -1.5cm;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    position: relative;
+    left: 2cm;
+}
+.info img {
+    width: 500px;
+    height: 350px;
+    border-radius: 28px;
+    border: 3px solid rgb(236, 200, 200);
+}
+.sonicDetail{
+    height: 300px;
+    
+}
+.loadingDetail{
+    position: relative;
+    top: 5cm;
+}
+.imgDesc h1 {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0.5px black;
+    text-shadow: 3px 6px  black; 
+    position: relative;
+    bottom: 3.5cm;
+    left: 2cm;
+  }
+.imgDesc p {
+    max-width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    background-color: rgba(138, 13, 13, 0.8);
+    border: 3px solid rgb(238, 183, 183);
+    box-shadow: 0px 0px 10px 5px rgb(187, 3, 3);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    color: white;
+    position: relative;
+    bottom: 4cm;
+    left: 1.5cm;
+}
+.back{
+    position: relative;
+    top: 0.5cm;
+    right: 15.7cm;
+    box-shadow:   0 0 15px 3px rgb(255, 0, 0), 
+    inset  0 0 10px 3px rgb(255, 0, 0);
+    background: transparent;
+    background-size: 800% 400%;
+    padding: 0px 50px;
+    display: inline-block;
+    border: 2px solid #f8baba;
+    border-radius: 10px;
+    font-size: 50px;
+    transition: 0.2s;
+    text-shadow: 1px 3px  black;
+    cursor: pointer; 
+}
+.linkBack{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.back:hover{
+    box-shadow:   0 0 20px 8px rgb(255, 0, 0),
+    inset  0 0 40px 3px rgb(255, 0, 0);
+    border: 2px solid #f8baba;
+    background-color: rgb(53, 5, 5);
+    padding: 1.5px 51.5px;
+    transition: 0.2s;
+}

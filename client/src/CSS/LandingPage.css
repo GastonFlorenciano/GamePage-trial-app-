@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+.bodyLan{
+    background-image: url('https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_dead_by_daylight_03_1920x1080.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: table;
+    margin: 0;
+    top: 0; 
+}
+.titleLan{
+  width: 420px;
+  height: 260px;
+  padding-right: 25cm;
+  
+}
+.btnLan {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 5px;
+  text-shadow: 2px 1px  black;
+  display: inline-block;
+  border-radius: 4px;
+  background: transparent;
+  color: rgb(255, 22, 22);
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: absolute;
+  right: 1050px;
+  top: 270px;
+  box-shadow:   0 0 20px 3px rgb(255, 0, 0), inset  0 0 20px 3px rgb(255, 0, 0);
+  border: 2px solid #f8baba;
+}
+  
+  .btnLan span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btnLan span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0s;
+  }
+  
+  .btnLan:hover span {
+    padding-right: 25px;
+    color: rgb(243, 164, 164);
+  }
+  
+  .btnLan:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .btnLan:hover{
+    box-shadow:   0 0 40px 3px rgb(255, 0, 0),
+    inset  0 0 80px 3px rgb(255, 0, 0);
+    border: 2px solid #f8baba;
+  }
+  
+  

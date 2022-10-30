@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.bodyHome{
+    background-image: url('https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_where_winds_meet_01_1920x1080.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.titleHome{
+  width: 250px;
+  height: 150px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.cardLink{
+    text-decoration: none;
+    color: black;
+}
+
+.sonic{
+    height: 300px;
+    
+}
+.loading{
+    position: relative;
+    top: -150px;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10%;
+    
+}
+
+.create{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(243, 188, 188);
+    box-shadow:   0 0 10px 2px rgb(255, 0, 0),
+    inset  0 0 10px 2px rgb(255, 0, 0);
+    border: 2px solid #f8baba;
+    padding: 15px;
+    letter-spacing: 5px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: -35px;
+    transition: 0.3s;
+    background-color: rgba(138, 13, 13, 0.452);
+}
+.create:hover{
+    box-shadow:   0 0 10px 5px rgb(255, 0, 0),
+    inset  0 0 10px 3px rgb(255, 0, 0);
+    border: 2px solid #f8baba;
+    background-color: rgb(133, 0, 0);
+    transition: 0.3s;
+}
+  
+.reset {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    position:absolute;
+    left: 17cm;
+    color: rgb(243, 188, 188);
+    letter-spacing: 5px;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid #f8baba;
+    padding: 15px;
+    box-shadow:   0 0 10px 2px rgb(255, 0, 0),
+    inset  0 0 10px 2px rgb(255, 0, 0);
+    top: 10px;
+    transition: 0.3s;
+    background-color: rgba(138, 13, 13, 0.452);
+}
+.reset:hover{
+    box-shadow:   0 0 10px 5px rgb(255, 0, 0),
+    inset  0 0 10px 3px rgb(255, 0, 0);
+    border: 2px solid #f8baba;
+    background-color: rgb(133, 0, 0);
+    transition: 0.3s;
+}
+
+.contSelects {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -60px;
+}
+
+.selects {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    left: 18cm;
+    color: rgb(243, 188, 188);
+    background-color:rgb(133, 0, 0); 
+    letter-spacing: 5px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #f8baba;
+    padding: 10px;
+    box-shadow:   0 0 10px 2px rgb(255, 0, 0),
+    inset  0 0 10px 2px rgb(255, 0, 0);
+    outline: none
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 4px  rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+    letter-spacing: 8px;
+    position: relative;
+    top: -60px;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
